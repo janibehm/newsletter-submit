@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(0, 87, 45, 0.871);
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.container {
+  height: 750px;
+  width: 550px;
+  text-align: center;
+  border: solid black 2px;
+  background-color: white;
+}
+
+#signUp {
+  margin: 10px;
+  background-color: rgb(255, 136, 0);
+  color: white;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.orangeText {
+  color: rgb(255, 136, 0);
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 200;
+}
+
+.bottomText {
+}

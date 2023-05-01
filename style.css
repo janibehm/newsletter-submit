@@ -1,30 +1,54 @@
 body {
-  background-color: rgba(0, 87, 45, 0.871);
+  background-color: #236747;
   font-family: "Raleway", sans-serif;
   display: flex;
   justify-content: center;
   height: auto;
+  margin: 0;
+  padding:0;
+}
+
+input{
+  height:2.5em;
+  border-radius:5px;
+  margin:10px;
+  width:22em;
+}
+
+.fieldText{
+  margin-left:10px;
 }
 
 .container {
-  height: 750px;
-  width: 550px;
-  text-align: center;
-  border: solid black 2px;
-  background-color: white;
-}
-
-#signUp {
-  margin: 10px;
-  background-color: rgb(255, 136, 0);
-  color: white;
-  width: 200px;
-  height: 30px;
+  height: 780px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  background-color: #ffffff;
   border-radius: 5px;
 }
 
-.orangeText {
-  color: rgb(255, 136, 0);
+.bottomContainer2{
+  display:flex;
+  font-size:85%;
+}
+
+.outterContainer {
+  padding-top: 40px;
+  height: 1000px;
+}
+
+button {
+  margin: 30px;
+  background-color: #ff7f50;
+  color: #ffffff;
+  width: 200px;
+  height: 40px;
+  font-size: 1.2sem;
+  border-radius:8px;
 }
 
 h1 {
@@ -32,8 +56,38 @@ h1 {
 }
 
 h4 {
-  font-weight: 200;
+  font-weight: 100;
+}
+
+p {
+  font-weight: 100;
+  margin: 10px;
+  margin-bottom: -2px;
+  margin-left: -4px;
 }
 
 .bottomText {
+  display:flex;
+  justify-content:center;
+}
+
+.firstText {
+  color: #ffffff;
+}
+
+.secondText {
+  color: #ff7f50;
+}
+
+h3{
+  font-weight: lighter;
+}
+
+.orangeText {
+  color: #ff7f50;
+}
+
+
+fas fa-lock{
+  z-index:999;
 }

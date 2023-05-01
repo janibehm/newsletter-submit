@@ -17,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-5z5V5xJZ2OM+V5MFeiz2SRyJlDgNvyBylG0nIYJnZ/QTgZpUv13+l+Iek6I+t0quY36Y1kU6ixBdQpxBFo6HjA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="https://kit.fontawesome.com/30ae4790f2.js" crossorigin="anonymous"></script>
     
@@ -30,11 +29,14 @@
           <h1>Sign Up</h1>
           <h4>It's free and only takes a minute</h4>
           <form>
-            <p class="fieldText">First name </p>
+            <div class="input-icons">
+            
+              <p class="fieldText">First name </p>
             <div class="input-container">
               <input type="text" id="firstname" />
               <i class="fas fa-user"></i>
             </div>
+
             <p class="fieldText">Last name</p>
             <input type="text" id="lastname" />
             <p class="fieldText">Email</p>
@@ -46,12 +48,17 @@
             <div class="input-container">
               <input type="password" id="password" />
               <i class="fas fa-lock"></i>
+             
+              
             </div>
             <p class="fieldText">Confirm Password</p>
             <div class="input-container">
               <input type="password" id="password" />
               <i class="fas fa-lock"></i>
+             
+              
             </div>
+          </div>
           </form>
           <button type="submit" id="signUp">Sign Up</button>
           <div class="bottomContainer">
